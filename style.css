@@ -7,7 +7,6 @@ body {
   align-items: center;
   height: 100vh;
 }
-
 .aquarium {
   position: relative;
   width: 800px;
@@ -17,8 +16,6 @@ body {
   border-radius: 20px;
   box-shadow: 0 0 20px rgba(0,0,0,0.5);
 }
-
-
 .background {
   position: absolute;
   width: 100%;
@@ -26,16 +23,12 @@ body {
   object-fit: cover;
   z-index: 1;
 }
-
-
 .fish {
   position: absolute;
   width: 100px;
   z-index: 3;
   animation: swim 12s linear infinite;
 }
-
-
 .fish1 {
   top: 100px;
   animation-duration: 10s;
@@ -69,21 +62,4 @@ body {
     left: -150px;
     transform: scaleX(-1);
   }
-}
-
-
-.seaweed {
-  position: absolute;
-  bottom: 50px;
-  width: 80px;
-  z-index: 2;
-  animation: sway 2s ease-in-out infinite alternate;
-}
-
-.s1 { left: 150px; }
-.s2 { left: 650px; animation-delay: 1s; }
-
-@keyframes sway {
-  from { transform: rotate(-5deg); }
-  to { transform: rotate(5deg); }
 }
