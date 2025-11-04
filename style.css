@@ -30,16 +30,12 @@ body {
   animation: swim 12s linear infinite;
 }
 .fish1 {
-  top: 100px;
-  animation-duration: 10s;
-}
-.fish2 {
   top: 200px;
   width: 80px;
   animation-duration: 14s;
   animation-delay: 2s;
 }
-.fish3 {
+.fish2 {
   top: 250px;
   width: 120px;
   animation-duration: 16s;
