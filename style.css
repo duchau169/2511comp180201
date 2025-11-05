@@ -56,7 +56,31 @@ button:hover {
 }
 .fish1 { top: 150px; animation-delay: 0s; }
 .fish2 { top: 250px; width: 120px; animation-delay: 3s; }
+.fish3 {
+  top: 60px;    
+  width: 80px;
+  animation: swim3 12s linear infinite;
+  animation-delay: 2s;
+}
 
+.fish4 {
+  top: 170px;      
+  width: 125px;
+  animation: swim4 20s linear infinite;
+  animation-delay: 4s;
+}
+@keyframes swim3 {
+  0% { left: -100px; transform: scaleX(1); }
+  50% { left: 850px; transform: scaleX(1); }
+  51% { transform: scaleX(-1); }
+  100% { left: -100px; transform: scaleX(-1); }
+}
+@keyframes swim4 {
+  0% { left: 850px; transform: scaleX(-1); }
+  50% { left: -150px; transform: scaleX(-1); }
+  51% { transform: scaleX(1); }
+  100% { left: 850px; transform: scaleX(1); }
+}
 @keyframes swim {
   0% { left: -120px; transform: scaleX(1); }
   50% { left: 800px; transform: scaleX(1); }
